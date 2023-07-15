@@ -1,7 +1,7 @@
 
 
 import Image from 'next/image'
-import p1 from "/public/p1.png"
+import p1 from "/public/P1.png"
 import p2 from "/public/p2.png"
 import p3 from "/public/p3.png"
 import p4 from "/public/p4.png"
