@@ -1,4 +1,4 @@
-import logo from "/public/logo.webp"
+import logo from "/public/Logo.webp"
 import Image from "next/image"
 import {BiSearch} from "react-icons/bi"
 import {BsCart2} from "react-icons/bs"
