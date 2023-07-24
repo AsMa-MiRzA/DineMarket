@@ -1,6 +1,7 @@
+import Wrapper from '@<prefix>/components/wrapper'
 const Newsletter = () => {
     return (
-  
+      <Wrapper>
         <div className="flex w-full justify-center items-center">
           <div className="flex flex-col justify-between items-center w-full gap-y-5 my-20 relative">
             <h3 className="font-extrabold text-4xl mt-40 tracking-wide">Subscribe Our Newsletter</h3>
@@ -20,7 +21,7 @@ const Newsletter = () => {
             </div>
           </div>
         </div>
-    
+      </Wrapper>
     );
   };
   
