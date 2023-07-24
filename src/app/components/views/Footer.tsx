@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import Wrapper from "@<prefix>/components/wrapper";
 import { FaFacebook, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import Link from "next/link";
 
@@ -9,7 +9,7 @@ const Footer = ()=> {
   return (
     <footer className="text-[#666666] mt-20">
       {/* main footer */}
-      
+        <Wrapper>
         <div className="flex flex-col w-full lg:flex-row justify-between lg:items-start mb-10">
           {/* image and its content */}
           <div className="w-2/6 flex flex-col gap-12 lg:mt-6 ">
@@ -57,7 +57,7 @@ const Footer = ()=> {
             <Link href={""}> Support 24h</Link>
           </div>
         </div>
-      
+         </Wrapper>
       {/* copyright and its content */}
       <div className="border-t border-black w-full">
         <div className=" max-w-[1240px] w-full mx-auto lg:px-20 py-5 px-8">
