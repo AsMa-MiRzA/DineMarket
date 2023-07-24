@@ -1,3 +1,4 @@
+import Wrapper from '@<prefix>/components/wrapper'
 import React from 'react'
 import Image from 'next/image'
 import Unique1 from '/public/unique1.webp'
@@ -7,6 +8,8 @@ const Unique = () => {
     //  <div className='flex flex-row-reverse font-serif text-5xl font-bold items-end  py-32 text-left leading-tight  tracking-wide'>
     //     <h1>Unique and Authentic<br/> Vintage Designer<br/> Jewellery</h1>
     //     </div>
+
+    <Wrapper>
 <div className="grid grid-cols-2 gap-5">
         <div className="col-span-2 col-start-1 h-full w-full  xl:col-start-2">
           <h3 className="text-[2.5rem] sm:text-[2.75rem] tracking-[0.03em] leading-tight mb-2 font-bold py-36">
@@ -72,7 +75,7 @@ const Unique = () => {
           </div>
         </div>
       </div>
-    
+    </Wrapper>
   )
 }
 
