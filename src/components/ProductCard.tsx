@@ -1,4 +1,4 @@
-
+import Wrapper from "@<prefix>/components/wrapper"
 
 import Image, { StaticImageData } from 'next/image'
 import p1 from "/public/p1.png"
@@ -11,12 +11,22 @@ import { FC } from 'react'
 
 function ProductCard (props:{title:string,price:number,img:StaticImageData}) {
   return (
-
+<Wrapper>
+  
               <div className='hover:scale-150 duration-20'>
                   <Image src={props.img} alt="product" />
                   <h3 className='font-bold text-lg mt-3'>{props.title}</h3>
                   <p className='font-bold text-lg'>${props.price}</p>
               </div>
+
+</Wrapper>
+
+      )
+}
+
+export default ProductCard
+
+
             //    <div className='hover:scale-150 duration-10' >
             //       <Image src={p4} alt="product" />
             //       <h3 className='font-bold text-lg mt-3'>Cameryn Sash Tie Dress</h3>
@@ -45,7 +55,3 @@ function ProductCard (props:{title:string,price:number,img:StaticImageData}) {
             //   </div> 
           
     
-  )
-}
-
-export default ProductCard
