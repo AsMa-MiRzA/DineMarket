@@ -1,3 +1,4 @@
+import Wrapper from "@<prefix>/components/wrapper"
 import logo from "/public/Logo.webp"
 import Image from "next/image"
 import {BiSearch} from "react-icons/bi"
@@ -6,6 +7,8 @@ import Link from "next/link"
 
 const Header2 = () => {
     return (
+
+        <Wrapper>
         <div className="flex justify-between items-center py-6 px-24" >
             <Image className="w-40"
                 src={logo} alt="logo" />
@@ -29,6 +32,8 @@ const Header2 = () => {
         </div >
        
         </div>
+
+            </Wrapper>
   )
 }
 
