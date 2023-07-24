@@ -1,5 +1,5 @@
 
-
+import Wrapper from '@<prefix>/components/wrapper'
 import Image from 'next/image'
 import p1 from "/public/P1.png"
 import p2 from "/public/p2.png"
@@ -12,7 +12,7 @@ import { Products } from '@<prefix>/utils/mock'
 const ProductLists = () => {
   return (
   
-      <>
+      <Wrapper>
       <div className=' text-center mt-20 '>
           <h3 className='text-blue-600 font-bold'>PRODUCTS</h3>
           <p className='text-4xl font-bold mt-3'>Check What We Have</p>
@@ -28,7 +28,7 @@ const ProductLists = () => {
 
               
           </div>
-          </>
+          </Wrapper>
           
   )
 }
