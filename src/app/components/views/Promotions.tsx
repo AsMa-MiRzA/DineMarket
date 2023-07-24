@@ -1,5 +1,5 @@
 import Image, { StaticImageData } from 'next/image'
-
+import Wrapper from '@<prefix>/components/wrapper'
 import event1 from '/public/event1.webp'
 import event2 from '/public/event2.webp'
 import event3 from '/public/event3.webp'
@@ -63,8 +63,8 @@ import Promotion1 from './Promotion1'
 
 const Promotion = () => {
     return (
-    //   <Wrapper>
-    <>
+       <Wrapper>
+    
        
            <div className=' text-center mt-24 '>     
                      <h3 className='text-blue-600 font-bold'>PROMOTIONS</h3>
@@ -120,7 +120,7 @@ const Promotion = () => {
             />
           </div>
         </div>
-        </>
+        </Wrapper>
      
     );
   };
