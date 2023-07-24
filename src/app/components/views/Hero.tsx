@@ -8,9 +8,10 @@ import Logo1 from '/public/logo1.webp'
 import Logo2 from '/public/logo2.webp'
 import Logo3 from '/public/logo3.webp'
 import Logo4 from '/public/logo4.webp'
-
+import Wrapper from '@<prefix>/components/wrapper'
  const Hero = () => {
   return (
+   <Wrapper>
      <section className=' flex flex-col lg:flex-row gap-y-10'>
          {/* Left Div */}
             <div className='flex-1'>
@@ -49,7 +50,7 @@ import Logo4 from '/public/logo4.webp'
 
                </div>
      </section>
-
+</Wrapper>
   )
 }
 export default Hero
